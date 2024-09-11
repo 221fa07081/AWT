@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>Weekly Timetable</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid rgb(20, 20, 20);
+            padding: 6px;
+            text-align: center;
+        }
+        th {
+            background-color:#f2f2f2;
+        }
+        .MINOR{
+            background-color:rgb(170, 234, 170);
+            color:red;
+        }
+        .empty{
+            background-color:rgb(247, 247, 152);
+            color: blue;
+        }
+        #empty{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <TR>
+            <th colspan="3">Year & section:III-B.Tech&B</th>
+            <th colspan="4"> </th>
+            <TH colspan="2">ROOM NO:</TH>
+            <TH>ATF-03</TH>
+        </TR>
+            <tr>
+                <th rowspan="2">day/hour</th>
+                <th>8:15-9:10</th>
+                <th>9:10-10:05</th>
+                <th>10:05-10:20</th>
+                <th>10:20-11:15</th>
+                <th>11:15-12:10</th>
+                <th>12:10-1:05</th>
+                <th>1:05-2:00</th>
+                <th>2:00-2:55</th>
+                <th>2:55-3:50</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="7">BREAK</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td rowspan="7">LUNCH<BR>BREAK</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>FLAT</td>
+                <td>SE</td>
+                <td>CN</td>
+                <td colspan="2">SS LAB</td>
+                <td colspan=2>OPEN ELECTIVES</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan=2>SE(NP-LAB)</td>
+                <td>CN</td>
+                <td>FLAT</td>
+                <TD>ML</TD>
+                <td colspan=2 class="MINOR">MINOR/HONOR(AWT)</td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td>ML</td>
+                <td>FLAT</td>
+                <td colspan=2 class="MINOR">MINOR/HONOR(AWT)</td>
+                <td>SE</td>
+                <td colspan=2>OPEN ELECTIVES</td>
+            </tr>
+            <tr>
+                <td>thursday</td>
+                <TD colspan="2">CN(DA-LAB)</TD>
+                <td>ML</td>
+                <td>CN</td>
+                <td class="empty" id="empty">LIBRARY</td>
+                <td colspan=2 class="empty">CODING PRACTICES</td>
+            </tr>
+            <tr>
+                <td>friday</td>
+                <td>FLAT</td>
+                <td>SE</td>
+                <td colspan=3>ML(DA-LAB)</td>
+                <td colspan="2" class="MINOR">MINOR/HONOR(AWT)</td>
+            </tr>
+            <tr>
+                <td>saturday</td>
+                <td colspan=2 class="MINOR">MINOR/HONOR(AWT)</td>
+                <td colspan=3>IDP-1(NP-LAB)</td>
+               <td colspan=2 class="empty">CODING PRACTICES</td>
+            </tr>
+    </table>
+</body>
+</html>
